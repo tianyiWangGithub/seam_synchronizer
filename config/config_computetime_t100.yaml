@@ -1,0 +1,7 @@
+/**:
+    ros__parameters:
+      # The ratio T^W/T^B (1.0, 1.2, 1.4, 1.6, 1.8)
+      period_factor: 1.0
+      # Enable the period_factor or not
+      msg_period_bias_flag: true
+
