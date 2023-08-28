@@ -8,6 +8,7 @@ First, clone this package in your workspace, replace work_space as your workspac
 cd ~/work_space/src
 git clone https://github.com/tianyiWangGithub/seam_synchronizer
 ```
+Copy files from _message_filters/sync_policies_ to _ros2_dashing/src/ros2/message_filters/include/message_filters/sync_policies_
 
 ## Build the packages
 Buid these message_filters package and seam_synchronizer package in your workspace
