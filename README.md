@@ -30,3 +30,8 @@ cd ~/ros2_dashing/seam_synchronizer
 cd ~/ros2_dashing/seam_synchronizer
 ./run_computetime.sh
 ```
+3 Draw graphs based on the experimental results obtained before
+```
+cd ~/ros2_dashing/seam_synchronizer
+./run_draw_py.sh
+```
