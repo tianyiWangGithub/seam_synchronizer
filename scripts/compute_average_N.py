@@ -52,6 +52,6 @@ for subfolder in subfolder_names:
 
 # Write the averages to data_ct_N.txt
 output_path = os.path.join(results_path, "data_ct_N.txt")
-with open(output_path, "w") as output_file:
-    for avg_apr, avg_seam in averages:
-        output_file.write(f"{avg_apr:.9f} {avg_seam:.9f}\n")
+# with open(output_path, "w") as output_file:
+#     for avg_apr, avg_seam in averages:
+#         output_file.write(f"{avg_apr:.9f} {avg_seam:.9f}\n")
