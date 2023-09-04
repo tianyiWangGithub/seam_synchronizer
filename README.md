@@ -20,7 +20,7 @@ colcon build --packages-select seam_synchronizer --symlink-install
 ```
 
 ## Run the experiments
-The **results** folder already contains the results from previous experiments. Before running the experiments, you can execute **run_draw_py.sh** to generate graphical representations of the results. Running **run_seam.sh** or **run_computetime.sh** will overwrite the existing results. To obtain new graphical representations of the experimental results, you can run **run_draw_py.sh** again. In addition, the experiments are configured to run 1000 sets of experiments for each result. If you wish to change the number of experiments, you can modify the `num_group` value in **run_seam.sh** or **run_computetime.sh**.
+The **results** folder already contains the results from previous experiments. Before running the experiments, you can execute **run_draw_py.sh** to generate graphical representations of the results. Running **run_seam.sh** or **run_computetime.sh** will overwrite the existing results. To obtain new graphical representations of the experimental results, you can run **run_draw_py.sh** again. In addition, the experiment is configured to run once per group. If you wish to change the number of experiments, you can modify the `num_group` value in **run_seam.sh** or **run_computetime.sh**.
 ### 1 Evaluate the performance by comparing the success rate of sensing data synchronization of the SEAM algorithm with the built-in ROS 2 ApproximateTime algorithm
 ```
 cd ~/ros2_dashing/seam_synchronizer
